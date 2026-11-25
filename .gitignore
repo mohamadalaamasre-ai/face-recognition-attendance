@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+ 
+# Environments
+venv/
+.venv/
+ 
+# Data and anything with real people's faces
+data/
+*.npz
+*.jpg
+*.jpeg
+*.png
+!results/benchmark.png
+gallery/
+attendance*.csv
+attendance_archive/
+ 
+# Live state written by the camera
+status.json
+status.json.tmp
+ 
+# Models: trained on faces, or downloaded automatically / from third parties
+models/*.joblib
+models/*.npy
+models/antispoof/
+*.pt
+*.onnx
+ 
+# Local logs and environment backups
+*.log
+requirements_before_*.txt
+ 

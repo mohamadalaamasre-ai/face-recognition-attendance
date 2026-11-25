@@ -1,0 +1,12 @@
+insightface==2.1
+joblib==1.6.0
+matplotlib==3.11.2
+numpy==2.4.6
+onnxruntime-gpu==1.32.0
+opencv-python==5.0.0.93
+pandas==3.0.6
+scikit-learn==1.9.1
+streamlit==1.67.0
+torch==2.15.0
+torchvision==0.29.2
+ultralytics==8.4.216

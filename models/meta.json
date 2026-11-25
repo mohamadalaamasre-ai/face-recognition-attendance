@@ -1,0 +1,23 @@
+{
+  "model": "B",
+  "threshold": 0.0,
+  "far_target_on_validation": null,
+  "test": {
+    "tp": 56,
+    "fn": 0,
+    "fp": 0,
+    "tn": 1580
+  },
+  "split": {
+    "val_videos": [
+      "alaa_laptop_04",
+      "alaa_phone_01"
+    ],
+    "seed": 42,
+    "lfw_fractions": {
+      "train": 0.7,
+      "val": 0.15,
+      "test": 0.15
+    }
+  }
+}
